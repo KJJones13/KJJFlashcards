@@ -31,8 +31,8 @@ describe('Round', function() {
   });
 
   it('should be able to caluclate percent answered correctly', function() {
-    round.takeTurn('sea otter');
     round.takeTurn('guess');
+    round.takeTurn('sea otter');
     expect(round.calculatePercentCorrect()).to.equal(50)
   });
 });

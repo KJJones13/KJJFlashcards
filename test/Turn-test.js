@@ -33,5 +33,12 @@ describe('Turn', function() {
     const turn = new Turn('tiger', card, 'wolf', 0);
     let userGuess = turn.evaluateGuess();
     expect(turn.guess).to.equal('tiger');
-  })
+  });
+
+  it('should give the user feedback', function() {
+    const card = new Card(1, 'What is Kyle\'s favorite animal', ['tiger', 'snake', 'wolf'], 'wolf');
+    const turn = new Turn('tiger', card);
+    let userFeedback = turn.giveFeedback();
+    expect(userFeedback).to.equal('incorrect');
+  });
 });

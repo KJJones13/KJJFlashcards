@@ -3,6 +3,10 @@
 This is the first solo project for Mod 2 at Turing School of Software and Design.
 This is an application that allows a user to see questions, take guesses, see a final score, and see how long the round took them to complete. The game is played through the command line. This project demonstrates the benefits of utilizing TDD for your code.
 
+
+
+
+
 ## Setup
 
 Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):

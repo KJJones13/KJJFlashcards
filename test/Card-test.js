@@ -1,9 +1,12 @@
 const chai = require('chai');
 const expect = chai.expect;
-
 const Card = require('../src/Card');
 
 describe('Card', function() {
+
+  beforeEach(function() {
+    card = new Card();
+  });  
 
   it('should be a function', function() {
     const card = new Card();

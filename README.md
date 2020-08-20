@@ -1,3 +1,8 @@
+# KJJ Flashcards
+
+This is an application that allows a user to see questions, take guesses, see a final score, and see how long the round took them to complete. The game is played through the command line. This project demonstrates the benefits of utilizing TDD for your code.
+
+
 # FlashCards Starter Kit
 
 ## Fork This Repo
